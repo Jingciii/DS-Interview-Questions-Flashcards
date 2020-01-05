@@ -17,6 +17,19 @@ A flashcards-like collection of interviews questions for Data Science
 </div>
 </details>
 
+#### Linear Regression
+
+- [ ] What is **Bayesian Linear Regression**
+ <details>
+<summary>ANS</summary>
+<div>
+  The response variable generated from a normal (Gaussian) Distribution characterized by a mean and variance. The mean for linear regression is the transpose of the weight matrix multiplied by the predictor matrix. The variance is the square of the standard deviation σ (multiplied by the Identity matrix because this is a multi-dimensional formulation of the model).
+
+ The aim of Bayesian Linear Regression is not to find the single “best” value of the model parameters, but rather to determine the posterior distribution for the model parameters. 
+  See details [here](https://towardsdatascience.com/introduction-to-bayesian-linear-regression-e66e60791ea7)
+</div>
+</details>
+
 #### Logistic Regression
 
  * How to interpret the weights in Logistic Regression?
