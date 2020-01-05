@@ -7,7 +7,9 @@ A flashcards-like collection of interviews questions for Data Science
 
 #### Generate Questions
 
- - [x] Give me an example where **MLE** is equivalent to **MAP**
+
+>  Give me an example where **MLE** is equivalent to **MAP**
+
  
  <details>
 <summary>ANS</summary>
