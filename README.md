@@ -4,12 +4,26 @@ A flashcards-like collection of interviews questions for Data Science
 
 ## Machine Learning-related
 
+
+#### Generate Questions
+
+ * Give me an example where **MLE** is equivalent to **MAP**
+ <details>
+<summary>ANS</summary>
+<div>
+ When using uniform prior, we assign equal weights everywhere, on all possible values of the $\theta$. The implication is that the likelihood equivalently weighted by some constants. Being constant, we could be ignored from our MAP equation, as it will not contribute to the maximization.
+
+  See details [here](https://wiseodd.github.io/techblog/2017/01/01/mle-vs-map/)
+</div>
+</details>
+
 #### Logistic Regression
 
  * How to interpret the weights in Logistic Regression?
  <details>
 <summary>ANS</summary>
 <div>
+
    - For intercept $\beta_0$, it just denotes that when all numerical features and categorical features are zero, the estimated odds (probability of event divided by probablity of no event) are $\exp(\beta_0)$
    
    - For numercial features, If you increase the value of feature $x_j$  by one unit, the estimated odds change by a factor of  $\exp(\beta_j)$
@@ -29,7 +43,9 @@ A flashcards-like collection of interviews questions for Data Science
 <details>
 <summary>ANS</summary>
 <div>
-Simpson's paradox occurs when groups of data show one particular trend, but this trend is reversed when the groups are combined together. Understanding and identifying this paradox is important for correctly interpreting data. See details [here](https://brilliant.org/wiki/simpsons-paradox/)
+ Simpson's paradox occurs when groups of data show one particular trend, but this trend is reversed when the groups are combined together. Understanding and identifying this paradox is important for correctly interpreting data.
+
+  See details [here](https://brilliant.org/wiki/simpsons-paradox/)
 </div>
 </details>
 
