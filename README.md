@@ -36,6 +36,20 @@ A flashcards-like collection of interviews questions for Data Science
 </div>
 </details>
 
+
+#### Random Forest
+
+ * How does random forest calcuate **Feature Importance**?
+<details>
+<summary>ANS</summary>
+<div>
+ By the decrease in node impurity weighted by the probability of reaching that node. The node probability can be calculated by the number of samples reaches that node divided by total number of samples.
+
+  See details [here](https://towardsdatascience.com/the-mathematics-of-decision-trees-random-forest-and-feature-importance-in-scikit-learn-and-spark-f2861df67e3)
+</div>
+</details>
+ 
+
 ## Statistics-related
 
 
