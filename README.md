@@ -7,7 +7,8 @@ A flashcards-like collection of interviews questions for Data Science
 
 #### Generate Questions
 
- * Give me an example where **MLE** is equivalent to **MAP**
+ - [x] Give me an example where **MLE** is equivalent to **MAP**
+ 
  <details>
 <summary>ANS</summary>
 <div>
@@ -19,7 +20,7 @@ A flashcards-like collection of interviews questions for Data Science
 
 #### Linear Regression
 
-- [ ] What is **Bayesian Linear Regression**
+- [x] What is **Bayesian Linear Regression**
  <details>
 <summary>ANS</summary>
 <div>
@@ -32,7 +33,7 @@ A flashcards-like collection of interviews questions for Data Science
 
 #### Logistic Regression
 
- * How to interpret the weights in Logistic Regression?
+ - [x] How to interpret the weights in Logistic Regression?
  <details>
 <summary>ANS</summary>
 <div>
@@ -52,7 +53,7 @@ A flashcards-like collection of interviews questions for Data Science
 
 #### Random Forest
 
- * How does random forest calcuate **Feature Importance**?
+ - [x] How does random forest calcuate **Feature Importance**?
 <details>
 <summary>ANS</summary>
 <div>
@@ -66,7 +67,7 @@ A flashcards-like collection of interviews questions for Data Science
 ## Statistics-related
 
 
- * What is **Simpson's Paradox**?
+ - [x] What is **Simpson's Paradox**?
 <details>
 <summary>ANS</summary>
 <div>
