@@ -61,6 +61,23 @@ A flashcards-like collection of interviews questions for Data Science
   See details [here](https://www.springboard.com/blog/data-science-interview-questions/)
 </div>
 </details>
+
+	What are limitations in Linear Regression models?
+ <details>
+<summary>ANS</summary>
+<div>
+
+ 1. Linear regression models are sensitive to outliers
+ 
+ 2. Overfitting - It is easy to overfit your model such that your regression begins to model the random error (noise) in the data, rather than just the relationship between the variables. This most commonly arises when you have too many parameters compared to the number of samples
+ 
+ 3. Linear regressions are meant to describe linear relationships between variables. So, if there is a nonlinear relationship, then you will have a bad model. However, you can sometimes compensate for this by transforming some of the parameters with a log, square root, etc. transformation.
+ 
+ 4. The data may not fit the model due to violation of assumptions. The other answers deal with this and there is lots of material in textbooks and online about this, so, I won’t say more about it.
+ 
+  See details [here](https://www.quora.com/What-are-the-limitations-of-linear-regression-modeling-in-data-analysis)
+</div>
+</details>
 	
 #### Logistic Regression
 
@@ -219,6 +236,20 @@ A flashcards-like collection of interviews questions for Data Science
 </div>
 </details>
 
+	What is F-test?
+<details>
+<summary>ANS</summary>
+<div>
+ The F-test can be used in regression analysis to determine whether a complex model is better than a simpler version of the same model in explaining the variance in the dependent variable.
+ 
+ The test statistic of the F-test is a random variable whose Probability Density Function is the F-distribution under the assumption that the null hypothesis is true.
+ 
+ The testing procedure for the F-test for regression is identical in its structure to that of other parametric tests of significance such as the t-test.
+
+  See details [here](https://towardsdatascience.com/fisher-test-for-regression-analysis-1e1687867259)
+</div>
+</details>
+
 ## Programming-related
 
 	What are some pros and cons about your favorite statistical software?
@@ -249,6 +280,7 @@ A flashcards-like collection of interviews questions for Data Science
 <details>
 <summary>ANS</summary>
 <div>
+
   See details [here](https://en.wikipedia.org/wiki/Sorting_algorithm)
 </div>
 </details>
