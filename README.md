@@ -9,7 +9,7 @@ A flashcards-like collection of interviews questions for Data Science
 
 
 
-	Give me an example where **MLE** is equivalent to **MAP**
+	<font size="3">Give me an example where MLE is equivalent to MAP</font>
 
  
  <details>
