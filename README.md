@@ -9,7 +9,7 @@ A flashcards-like collection of interviews questions for Data Science
 
 
 
-	<font size="3">Give me an example where MLE is equivalent to MAP</font>
+	Give me an example where MLE is equivalent to MAP
 
  
  <details>
@@ -23,7 +23,7 @@ A flashcards-like collection of interviews questions for Data Science
 
 #### Linear Regression
 
-- [x] What is **Bayesian Linear Regression**
+	What is **Bayesian Linear Regression**
  <details>
 <summary>ANS</summary>
 <div>
@@ -36,7 +36,7 @@ A flashcards-like collection of interviews questions for Data Science
 
 #### Logistic Regression
 
- - [x] How to interpret the weights in Logistic Regression?
+	How to interpret the weights in Logistic Regression?
  <details>
 <summary>ANS</summary>
 <div>
@@ -56,7 +56,7 @@ A flashcards-like collection of interviews questions for Data Science
 
 #### Random Forest
 
- - [x] How does random forest calcuate **Feature Importance**?
+	How does random forest calcuate **Feature Importance**?
 <details>
 <summary>ANS</summary>
 <div>
@@ -70,7 +70,7 @@ A flashcards-like collection of interviews questions for Data Science
 ## Statistics-related
 
 
- - [x] What is **Simpson's Paradox**?
+	What is **Simpson's Paradox**?
 <details>
 <summary>ANS</summary>
 <div>
