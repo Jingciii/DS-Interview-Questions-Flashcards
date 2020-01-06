@@ -93,6 +93,19 @@ A flashcards-like collection of interviews questions for Data Science
   See details [here](https://towardsdatascience.com/the-mathematics-of-decision-trees-random-forest-and-feature-importance-in-scikit-learn-and-spark-f2861df67e3)
 </div>
 </details>
+
+#### Clustering
+
+	How is k-NN different from k-means clustering?
+<details>
+<summary>ANS</summary>
+<div>
+ k-NN, or k-nearest neighbors is a classification algorithm, where the k is an integer describing the number of neighboring data points that influence the classification of a given observation. K-means is a clustering algorithm, where the k is an integer describing the number of clusters to be created from the given data.
+
+  See details [here](https://www.springboard.com/blog/data-science-interview-questions/)
+</div>
+</details>
+
  
 
 ## Statistics-related
@@ -173,8 +186,115 @@ A flashcards-like collection of interviews questions for Data Science
 </div>
 </details>
 
+	What is a statistical interaction?
+	
+<details>
+<summary>ANS</summary>
+<div>
+ Basically, an interaction is when the effect of one factor (input variable) on the dependent variable (output variable) differs among levels of another  factor.
+
+  See details [here](http://icbseverywhere.com/blog/mini-lessons-tutorials-and-support-pages/statistical-interactions/)
+</div>
+</details>
+
+	What is selection bias?
+<details>
+<summary>ANS</summary>
+<div>
+ Selection (or “sampling”) bias occurs in an “active,” sense when the sample data that is gathered and prepared for modeling has characteristics that are not representative of the true, future population of cases the model will see. That is, active selection bias occurs when a subset of the data are systematically (i.e., non-randomly) excluded from analysis.
+
+  See details [here](https://www.elderresearch.com/blog/selection-bias-in-analytics)
+</div>
+</details>
+
+	What is an example of a data set with a non-Gaussian distribution?
+<details>
+<summary>ANS</summary>
+<div>
+ The Gaussian distribution is part of the Exponential family of distributions, but there are a lot more of them, with the same sort of ease of use, in many cases, and if the person doing the machine learning has a solid grounding in statistics, they can be utilized where appropriate. 
+ 
+ In a Poisson or Bernoulli process, the statistic that gives the time to the next event is not normal, but the data collected in such processes is the number of events per time unit, and for large 𝑛, that's approximately normal.
+
+  See details [here](https://www.quora.com/Most-machine-learning-datasets-are-in-Gaussian-distribution-Where-can-we-find-the-dataset-which-follows-Bernoulli-Poisson-gamma-beta-etc-distribution)
+</div>
+</details>
+
 ## Programming-related
 
+	What are some pros and cons about your favorite statistical software?
+<details>
+<summary>ANS</summary>
+<div>
+ For Python and R:
+ 
+ * Pros:
+ 
+ 	* A large number of repositories in GitHub
+
+ 	* Packages for Data Science
+
+ * Cons:
+
+ 	* Python doesn't have good documentation
+
+ 	* R is an erratic tool for machine learning projects
+
+ 	* R is a slow programming language
+
+  See more details [here](https://bbvaopen4u.com/en/actualidad/pros-and-cons-python-and-r-data-science) and [here](https://it.unt.edu/rss-pros-and-cons-software-packages)
+</div>
+</details>
+
+	How would you sort a large list of numbers?
+<details>
+<summary>ANS</summary>
+<div>
+  See details [here](https://en.wikipedia.org/wiki/Sorting_algorithm)
+</div>
+</details>
+
+	What Native Data Structures Can You Name in Python?
+<details>
+<summary>ANS</summary>
+<div>
+ List, Dictionary, Set, String, Tuple
+ 
+  See details [here](https://www.springboard.com/blog/python-interview-questions/)
+</div>
+</details>
+
+	In Python, How is Memory Managed?
+<details>
+<summary>ANS</summary>
+<div>
+ In Python, memory is managed in a private heap space. This means that all the objects and data structures will be located in a private heap. However, the programmer won’t be allowed to access this heap. Instead, the Python interpreter will handle it. At the same time, the core API will enable access to some Python tools for the programmer to start coding.  
+ 
+ See details [here](https://www.springboard.com/blog/python-interview-questions/)
+</div>
+</details>	
+
 ## SQL-related
+
+	Tell me the difference between an inner join, left join/right join, and union.
+<details>
+<summary>ANS</summary>
+<div>
+ In a Venn diagram the inner join is when both tables have a match, a left join is when there is a match in the left table and the right table is null, a right join is the opposite of a left join, and a full join is all of the data combined. 
+ 
+ See details [here](https://www.springboard.com/blog/joining-data-tables/)
+</div>
+</details>	
+
+	What does UNION do? What is the difference between UNION and UNION ALL?
+<details>
+<summary>ANS</summary>
+<div>
+ UNION removes duplicate records (where all columns in the results are the same), UNION ALL does not.
+ 
+ See details [here](https://stackoverflow.com/questions/49925/what-is-the-difference-between-union-and-union-all)
+</div>
+</details>	
+
+
 
 ## Deep Learning-related 
