@@ -30,10 +30,38 @@ A flashcards-like collection of interviews questions for Data Science
   The response variable generated from a normal (Gaussian) Distribution characterized by a mean and variance. The mean for linear regression is the transpose of the weight matrix multiplied by the predictor matrix. The variance is the square of the standard deviation σ (multiplied by the Identity matrix because this is a multi-dimensional formulation of the model).
 
  The aim of Bayesian Linear Regression is not to find the single “best” value of the model parameters, but rather to determine the posterior distribution for the model parameters. 
+ 
+  See details [here](https://blog.minitab.com/blog/adventures-in-statistics-2/how-to-interpret-regression-analysis-results-p-values-and-coefficients)
+</div>
+</details>
+
+	 How to interpret the Regression Coefficients for Cuvilinear Relationships and Interactive Terms?
+ <details>
+<summary>ANS</summary>
+<div>
+  Interaction terms indicate that the effect of one predictor depends on the value of another predictor. 
+ 
   See details [here](https://towardsdatascience.com/introduction-to-bayesian-linear-regression-e66e60791ea7)
 </div>
 </details>
 
+	What are the assumptions required for linear regression?
+ <details>
+<summary>ANS</summary>
+<div>
+
+ 1. There is a linear relationship between the dependent variables and the regressors, meaning the model you are creating actually fits the data
+ 
+ 2. The errors or residuals of the data are normally distributed and independent from each other
+ 
+ 3. There is minimal multicollinearity between explanatory variables
+ 
+ 4. Homoscedasticity. This means the variance around the regression line is the same for all values of the predictor variable.
+ 
+  See details [here](https://www.springboard.com/blog/data-science-interview-questions/)
+</div>
+</details>
+	
 #### Logistic Regression
 
 	How to interpret the weights in Logistic Regression?
@@ -97,16 +125,53 @@ A flashcards-like collection of interviews questions for Data Science
 <summary>ANS</summary>
 <div>
  Sampling is a statistical analysis technique used to select, manipulate and analyze a *representative* subset of points to identify trends and patterns in the larger data set being examined.
+ 
  * Sampling based on *Probability*:
  	* Simple random sampling: Software is used to randomly select subjects from the whole population
+ 	
  	* Stratified sampling: Subsets of the data sets or population are created based on a common factor, and samples are randomly collected from each subgroup
+ 	
  	* Cluster sampling: The larger data set is divided into subsets (clusters) based on a defined factor, then a random sampling of clusters is analyzed
+ 	
  	* Multistage sampling: A more complicated form of cluster sampling, this method also involves dividing the larger population into a number of clusters. Second-stage clusters are then broken out based on a secondary factor, and those clusters are then sampled and analyzed. This staging could continue as multiple subsets are identified, clustered and analyzed
+ 	
  	* Systematic sampling: A sample is created by setting an interval at which to extract data from the larger population -- for example, selecting every 10th row in a spreadsheet of 200 items to create a sample size of 20 rows to analyze
+ 	
+ * Sampling based *Non-Probablity*:
+ 	
+ 	* Convenience sampling: Data is collected from an easily accessible and available group
+ 	
+ 	* Consecutive sampling: Data is collected from every subject that meets the criteria until the predetermined sample size is met
 
-  See details [here](https://spin.atomicobject.com/2015/02/12/central-limit-theorem-intro/)
+ 	* Purposive or judgmental sampling: The researcher selects the data to sample based on predefined criteria
+
+ 	* Quota sampling: The researcher ensures equal representation within the sample for all subgroups in the data set or population
+
+  See details [here](https://searchbusinessanalytics.techtarget.com/definition/data-sampling)
 </div>
 </details>	
+
+	What is the difference between type I vs type II error?
+<details>
+<summary>ANS</summary>
+<div>
+ A type I error (FP) occurs when the null hypothesis is true, but is rejected. Let me say it again, a type I error occurs when the null hypothesis is actually true, but was rejected as false by the testing. 
+ 
+ A type II (FN) error occurs when the null hypothesis is false, but erroneously fails to be rejected. Let me say this again, a type II error occurs when the null hypothesis is actually false, but was accepted as true by the testing.
+
+  See details [here](https://www.datasciencecentral.com/profiles/blogs/understanding-type-i-and-type-ii-errors)
+</div>
+</details>
+
+	How to interpret P-values in Linear Regression Analysis
+<details>
+<summary>ANS</summary>
+<div>
+ The p-value for each term tests the null hypothesis that the coefficient is equal to zero (no effect). A low p-value (< 0.05) indicates that you can reject the null hypothesis. In other words, a predictor that has a low p-value is likely to be a meaningful addition to your model because changes in the predictor's value are related to changes in the response variable. Conversely, a larger (insignificant) p-value suggests that changes in the predictor are not associated with changes in the response.
+
+  See details [here](https://blog.minitab.com/blog/adventures-in-statistics-2/how-to-interpret-regression-analysis-results-p-values-and-coefficients)
+</div>
+</details>
 
 ## Programming-related
 
