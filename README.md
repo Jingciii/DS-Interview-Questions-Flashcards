@@ -23,7 +23,7 @@ A flashcards-like collection of interviews questions for Data Science
 
 #### Linear Regression
 
-	What is **Bayesian Linear Regression**
+	What is Bayesian Linear Regression?
  <details>
 <summary>ANS</summary>
 <div>
@@ -56,7 +56,7 @@ A flashcards-like collection of interviews questions for Data Science
 
 #### Random Forest
 
-	How does random forest calcuate **Feature Importance**?
+	How does random forest calcuate Feature Importance?
 <details>
 <summary>ANS</summary>
 <div>
@@ -70,7 +70,7 @@ A flashcards-like collection of interviews questions for Data Science
 ## Statistics-related
 
 
-	What is **Simpson's Paradox**?
+	What is Simpson's Paradox?
 <details>
 <summary>ANS</summary>
 <div>
@@ -79,6 +79,34 @@ A flashcards-like collection of interviews questions for Data Science
   See details [here](https://brilliant.org/wiki/simpsons-paradox/)
 </div>
 </details>
+
+	What is the Central Limit Theorem and why is it important?
+<details>
+<summary>ANS</summary>
+<div>
+ Suppose that we are interested in estimating the average height among all people. Collecting data for every person in the world is impossible. While we can’t obtain a height measurement from everyone in the population, we can still sample some people. The question now becomes, what can we say about the average height of the entire population given a single sample. The Central Limit Theorem addresses this question exactly.
+ 
+ Formally, it states that if we sample from a population using a sufficiently large sample size, the mean of the samples (also known as the sample population) will be normally distributed (assuming true random sampling). What’s especially important is that this will be true regardless of the distribution of the original population.
+
+  See details [here](https://spin.atomicobject.com/2015/02/12/central-limit-theorem-intro/)
+</div>
+</details>	
+
+	What is sampling? How many sampling methods do you know?
+<details>
+<summary>ANS</summary>
+<div>
+ Sampling is a statistical analysis technique used to select, manipulate and analyze a *representative* subset of points to identify trends and patterns in the larger data set being examined.
+ * Sampling based on *Probability*:
+ 	* Simple random sampling: Software is used to randomly select subjects from the whole population
+ 	* Stratified sampling: Subsets of the data sets or population are created based on a common factor, and samples are randomly collected from each subgroup
+ 	* Cluster sampling: The larger data set is divided into subsets (clusters) based on a defined factor, then a random sampling of clusters is analyzed
+ 	* Multistage sampling: A more complicated form of cluster sampling, this method also involves dividing the larger population into a number of clusters. Second-stage clusters are then broken out based on a secondary factor, and those clusters are then sampled and analyzed. This staging could continue as multiple subsets are identified, clustered and analyzed
+ 	* Systematic sampling: A sample is created by setting an interval at which to extract data from the larger population -- for example, selecting every 10th row in a spreadsheet of 200 items to create a sample size of 20 rows to analyze
+
+  See details [here](https://spin.atomicobject.com/2015/02/12/central-limit-theorem-intro/)
+</div>
+</details>	
 
 ## Programming-related
 
