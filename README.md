@@ -5,7 +5,7 @@ A flashcards-like collection of interviews questions for Data Science
 ## Machine Learning-related
 
 
-#### Generate Questions
+#### General Questions
 
 
 
@@ -35,7 +35,7 @@ A flashcards-like collection of interviews questions for Data Science
 </div>
 </details>
 
-	 How to interpret the Regression Coefficients for Cuvilinear Relationships and Interactive Terms?
+	 How to interpret the Regression Coefficients for Curvilinear Relationships and Interactive Terms?
  <details>
 <summary>ANS</summary>
 <div>
@@ -86,9 +86,9 @@ A flashcards-like collection of interviews questions for Data Science
 <summary>ANS</summary>
 <div>
 
-   - For intercept $\beta_0$, it just denotes that when all numerical features and categorical features are zero, the estimated odds (probability of event divided by probablity of no event) are $\exp(\beta_0)$
+   - For intercept $\beta_0$, it just denotes that when all numerical features and categorical features are zero, the estimated odds (probability of event divided by probability of no event) are $\exp(\beta_0)$
    
-   - For numercial features, If you increase the value of feature $x_j$  by one unit, the estimated odds change by a factor of  $\exp(\beta_j)$
+   - For numerical features, If you increase the value of feature $x_j$  by one unit, the estimated odds change by a factor of  $\exp(\beta_j)$
    
    - For binary categorical features: one of the two values of the feature is the reference category. Changing the feature $x_j$ from the reference category to the other category changes the estimated odds by $\exp(\beta_j)$
    
@@ -167,7 +167,7 @@ A flashcards-like collection of interviews questions for Data Science
  	
  	* Systematic sampling: A sample is created by setting an interval at which to extract data from the larger population -- for example, selecting every 10th row in a spreadsheet of 200 items to create a sample size of 20 rows to analyze
  	
- * Sampling based *Non-Probablity*:
+ * Sampling based *Non-Probability*:
  	
  	* Convenience sampling: Data is collected from an easily accessible and available group
  	
