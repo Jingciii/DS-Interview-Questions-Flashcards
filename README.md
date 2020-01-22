@@ -290,6 +290,24 @@ A flashcards-like collection of interviews questions for Data Science
 </details>
 
 
+	Describe the procedure of Hypothesis Testing.
+	
+ <details>
+<summary>ANS</summary>
+<div>
+
+  1. Determine the null hypothesis and alternative hypothesis
+  2. Verifiy data condition
+  3. Assume that the null hypothesis is true, calculate the p-value
+  4. Decide whether or not the result is statistically significant
+  5. Report the conclusion 
+
+  See details [here](https://docs.google.com/document/d/1dw07lpLci5yKaV8ZJIDL6C46eaTE1OW_YNeHbXh-KN0/edit)
+</div>
+</details>
+
+
+
 ## Programming-related
 
 **Include questions about Data Structures/Algorithms/Coding Concepts. Since I assume for those questions, coding practice should be focused more.**
