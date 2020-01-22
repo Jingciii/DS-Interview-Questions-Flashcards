@@ -22,6 +22,16 @@ A flashcards-like collection of interviews questions for Data Science
 </details>
 
 
+	How to decide between L1 and L2 Loss Function?
+	
+ <details>
+<summary>ANS</summary>
+<div>
+ Generally, L2 Loss Function is preferred in most of the cases. But when the outliers are present in the dataset, then the L2 Loss Function does not perform well. The reason behind this bad performance is that if the dataset is having outliers, then because of the consideration of the squared differences, it leads to the much larger error. Hence, L2 Loss Function is not useful here. Prefer L1 Loss Function as it is not affected by the outliers or remove the outliers and then use L2 Loss Function.
+
+  See details [here](https://afteracademy.com/blog/what-are-l1-and-l2-loss-functions)
+</div>
+</details>
 
 #### Linear Regression
 
