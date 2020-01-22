@@ -100,6 +100,19 @@ A flashcards-like collection of interviews questions for Data Science
 </div>
 </details>
 
+#### Navie Bayes
+
+	What is navie about Navie Bayes?
+
+<details>
+<summary>ANS</summary>
+<div>
+ Its core assumption of conditional independence (i.e. all input features are independent from one another) rarely holds true in the real world
+
+  See details [here](https://elitedatascience.com/machine-learning-algorithms)
+</div>
+</details>
+
 
 #### Random Forest
 
@@ -279,6 +292,8 @@ A flashcards-like collection of interviews questions for Data Science
 
 ## Programming-related
 
+**Include questions about Data Structures/Algorithms/Coding Concepts. Since I assume for those questions, coding practice should be focused more.**
+
 	What are some pros and cons about your favorite statistical software?
 <details>
 <summary>ANS</summary>
@@ -331,6 +346,29 @@ A flashcards-like collection of interviews questions for Data Science
  See details [here](https://www.springboard.com/blog/python-interview-questions/)
 </div>
 </details>	
+
+	What is worst case time complexity of quick sort?
+	
+	What is average case time complexity of quick sort?
+	
+	
+	
+	What is worst case time complexity of looking up a value in a hashtable?
+	
+	
+	What is average case time complexity of looking up a value in a hashtable?
+	
+	
+	What is average case time complexity of looking up a value in a hashtable?
+	
+	
+	What is the difference between black-red tree with binary search tree?
+	
+	
+	What is the largest possible height of a binary tree with n elements?
+	
+	
+	What is the largest possible height of a balanced binary search tree with n elements?
 
 ## SQL-related
 
