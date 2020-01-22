@@ -317,7 +317,29 @@ A flashcards-like collection of interviews questions for Data Science
 </details>
 
 
+	How to compute Confidence Interval for population Mean?
+	
+ <details>
+<summary>ANS</summary>
+<div>
 
+  See details [here](https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/confidence-interval/#CIZ2)
+</div>
+</details>
+
+
+	How to compute Confidence Interval for population Median?
+	
+ <details>
+<summary>ANS</summary>
+<div>
+
+  A general probability solution and an interesting bootstrap solution see below.
+
+  See details [here](https://online.stat.psu.edu/stat414/node/316/) and [here](https://ocw.mit.edu/courses/mathematics/18-05-introduction-to-probability-and-statistics-spring-2014/readings/MIT18_05S14_Reading24.pdf)
+</div>
+</details>
+	
 ## Programming-related
 
 **Include questions about Data Structures/Algorithms/Coding Concepts. Since I assume for those questions, coding practice should be focused more.**
