@@ -21,6 +21,19 @@ A flashcards-like collection of interviews questions for Data Science
 </div>
 </details>
 
+
+	What is the Standard Error?
+
+ 
+ <details>
+<summary>ANS</summary>
+<div>
+  The standard error (SE) of a statistic is the approximate standard deviation of a statistical sample population. The standard error is a statistical term that measures the accuracy with which a sample distribution represents a population by using standard deviation. In statistics, a sample mean deviates from the actual mean of a population—this deviation is the standard error of the mean.
+
+  See details [here](https://www.investopedia.com/terms/s/standard-error.asp)s
+</div>
+</details>
+
 #### Linear Regression
 
 	What is Bayesian Linear Regression?
