@@ -448,6 +448,20 @@ A flashcards-like collection of interviews questions for Data Science
 </div>
 </details>	
 	
+	What do you deal with collision in hashtable?
+	
+<details>
+<summary>ANS</summary>
+<div>
+ - By having each bucket contain a linked list of elements that are hashed to that bucket. This is why a bad hash function can make lookups in hash tables very slow.
+ -If the hash table entries are all full then the hash table can increase the number of buckets that it has and then redistribute all the elements in the table. The hash function returns an integer and the hash table has to take the result of the hash function and mod it against the size of the table that way it can be sure it will get to bucket. So by increasing the size, it will rehash and run the modulo calculations which if you are lucky might send the objects to different buckets.
+ - Dynamic resizing
+ - Open addressing strategy
+ 
+ See details [here](https://stackoverflow.com/questions/4980757/how-do-hashtables-deal-with-collisions/4980797)
+</div>
+</details>
+	
 	What is the difference between black-red tree with binary search tree?
 
 <details>
