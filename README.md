@@ -33,6 +33,18 @@ A flashcards-like collection of interviews questions for Data Science
 </div>
 </details>
 
+
+	How to deal with Skewed Data?
+	
+ <details>
+<summary>ANS</summary>
+<div>
+ - Log-transformation
+ - Boxcox-transformation
+  See details [here](https://becominghuman.ai/how-to-deal-with-skewed-dataset-in-machine-learning-afd2928011cc)
+</div>
+</details>
+
 #### Linear Regression
 
 	What is Bayesian Linear Regression?
@@ -398,27 +410,72 @@ A flashcards-like collection of interviews questions for Data Science
 </details>	
 
 	What is worst case time complexity of quick sort?
+
+<details>
+<summary>ANS</summary>
+<div>
+ O(n^2)
+</div>
+</details>
+
 	
 	What is average case time complexity of quick sort?
-	
+
+<details>
+<summary>ANS</summary>
+<div>
+ O(n\log{n})
+</div>
+</details>	
 	
 	
 	What is worst case time complexity of looking up a value in a hashtable?
 	
+<details>
+<summary>ANS</summary>
+<div>
+ O(n)
+</div>
+</details>	
+	
 	
 	What is average case time complexity of looking up a value in a hashtable?
-	
-	
-	What is average case time complexity of looking up a value in a hashtable?
-	
+
+<details>
+<summary>ANS</summary>
+<div>
+ O(1) if the number of entris is no more than the number of buckets
+</div>
+</details>	
 	
 	What is the difference between black-red tree with binary search tree?
+
+<details>
+<summary>ANS</summary>
+<div>
+ A red-black tree is a self-balancing tree, while a binary search tree is not. So a binary search tree is able to form long chains of nodes that can cause searches to take linear time, but a red-black tree guarantees (because it is self-balancing) a search operation takes logarithmic time.
+ 
+ See details [here](https://www.quora.com/Difference-between-binary-search-tree-and-red-black-tree)
+</div>
+</details>		
 	
-	
-	What is the largest possible height of a binary tree with n elements?
-	
+	What is the largest and minimum possible height of a binary tree with n elements?
+<details>
+<summary>ANS</summary>
+<div>
+ n - 1 and O(\log(2n))
+ See details [here](https://www.geeksforgeeks.org/relationship-number-nodes-height-binary-tree/)
+</div>
+</details>			
 	
 	What is the largest possible height of a balanced binary search tree with n elements?
+
+<details>
+<summary>ANS</summary>
+<div>
+O(\log{n})
+</div>
+</details>		
 
 ## SQL-related
 
