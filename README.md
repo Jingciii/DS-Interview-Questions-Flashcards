@@ -40,7 +40,9 @@ A flashcards-like collection of interviews questions for Data Science
 <summary>ANS</summary>
 <div>
  - Log-transformation
+ 
  - Boxcox-transformation
+
   See details [here](https://becominghuman.ai/how-to-deal-with-skewed-dataset-in-machine-learning-afd2928011cc)
 </div>
 </details>
