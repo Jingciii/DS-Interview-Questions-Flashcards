@@ -517,3 +517,14 @@ O(\log{n})
 
 
 ## Deep Learning-related 
+
+	What is model checkpointing?
+<details>
+<summary>ANS</summary>
+<div>
+  It is an approach where a snapshot of the state of the system is taken in case of system failure. If there is a problem, not all is lost. The checkpoint may be used directly, or used as the starting point for a new run, picking up where it left off.
+ 
+ See details [here](https://machinelearningmastery.com/check-point-deep-learning-models-keras/)
+</div>
+</details>		
+	
