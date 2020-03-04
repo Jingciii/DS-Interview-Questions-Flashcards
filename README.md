@@ -106,6 +106,17 @@ A flashcards-like collection of interviews questions for Data Science
 	
 #### Logistic Regression
 
+	Is Logistic Regression a linear model? Why?
+
+<details>
+<summary>ANS</summary>
+<div>
+ Logistic regression is considered a generalized linear model because the outcome always depends on the sum of the inputs and parameters. Or in other words, the output cannot depend on the product (or quotient, etc.) of its parameters!
+
+  See details [here](https://sebastianraschka.com/faq/docs/logistic_regression_linear.html)
+</div>
+</details>	
+
 	How to interpret the weights in Logistic Regression?
  <details>
 <summary>ANS</summary>
@@ -525,6 +536,32 @@ O(\log{n})
   It is an approach where a snapshot of the state of the system is taken in case of system failure. If there is a problem, not all is lost. The checkpoint may be used directly, or used as the starting point for a new run, picking up where it left off.
  
  See details [here](https://machinelearningmastery.com/check-point-deep-learning-models-keras/)
+</div>
+</details>		
+
+	What are the problems with sigmoid as activation function?
+<details>
+<summary>ANS</summary>
+<div>
+  - Sigmoid saturate and kill gradients: the curve becomes parallel to x-axis when fed with a very large positive or negative number. During backpropagation, it multiplies the local gradident and if the gradient is small it get killed. **This problem of vanishing gradient is solved by Relu**
+  - Not Zero-centered: Sigmoid outputs are not zero-centered, which is undesirable because it can indirectly introduce undesirable zig-zagging dynamics in the gradient updates for the weights.
+ 
+ See details [here](https://kharshit.github.io/blog/2018/04/20/don't-use-sigmoid-neural-nets)
+</div>
+</details>	
+
+	What regularization techniques for neural nets do you know
+	
+<details>
+<summary>ANS</summary>
+<div>
+  - L1 & L2 regularization (in loss function): smaller weight matrices lead to simpler models
+  - Dropout: it can be thought of as an ensemble  technique in machine learning
+  - Data Augmentation: 
+  - Early Stopping
+  - Weight Decay
+  - Batch Normalization
+ See details [here](https://www.analyticsvidhya.com/blog/2018/04/fundamentals-deep-learning-regularization-techniques/)
 </div>
 </details>		
 	
