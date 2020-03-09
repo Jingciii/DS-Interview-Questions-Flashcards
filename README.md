@@ -561,7 +561,23 @@ O(\log{n})
   - Early Stopping
   - Weight Decay
   - Batch Normalization
+
+  
  See details [here](https://www.analyticsvidhya.com/blog/2018/04/fundamentals-deep-learning-regularization-techniques/)
 </div>
 </details>		
-	
+
+	What need to be taken cautions when updating pretrained weights in language models? And solutions?
+
+<details>
+<summary>ANS</summary>
+<div>
+  When updating during training on target problem, useful pretrained information might be overwritten. Some solutions: 
+  - freezing: train layers independently to give them time to adapt to new task and data. All train and all parameters jointly in the end
+  - lower learing rate: warm-up receives variance in early stage of trainning
+  - regularization: to encourage target model parameters to stay close to the parameters of pretrained model 
+
+  
+ See details [here](https://ruder.io/state-of-transfer-learning-in-nlp/)
+</div>
+</details>	
